@@ -29,15 +29,15 @@ Returns the difference between two sets or arrays. The difference is the set of 
 **Parameters**:
 
 - **setA (Set|Array)**: The first set or array.
-- **setB (Set|Array)**: The second set or array, from which elements will be subtracted.  
+- **setB (Set|Array)**: The second set or array, from which elements will be subtracted.
 
 **Return**: A new set containing elements that are in 'setA' but not in 'setB'.
 
 **Example**:
 
 ```javascript
-const setA = [1,2,3];
-const setB = [1,3];
+const setA = [1, 2, 3];
+const setB = [1, 3];
 
 console.log(difference(setA, setB)); // Outputs: Set { 2 }
 ```
