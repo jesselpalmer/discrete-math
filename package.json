@@ -1,6 +1,6 @@
 {
   "name": "discrete-math",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Discrete Mathematics library",
   "main": "./src/index.js",
   "repository": "https://github.com/jesselpalmer/discrete-math",
