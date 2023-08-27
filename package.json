@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Discrete Mathematics library",
   "main": "./src/index.js",
+  "repository": "https://github.com/jesselpalmer/discrete-math",
   "scripts": {
     "fix": "npm run format:fix && npm run lint:fix",
     "format": "prettier --check '**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
