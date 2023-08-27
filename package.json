@@ -9,7 +9,8 @@
     "format:fix": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
-    "test": "node --experimental-vm-modules ./node_modules/.bin/jest --forceExit"
+    "prepublishOnly": "npm run format && npm run lint && npm run test",
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
   },
   "keywords": [],
   "author": "Jesse Palmer",
