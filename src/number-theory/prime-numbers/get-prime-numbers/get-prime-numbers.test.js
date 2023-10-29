@@ -1,5 +1,3 @@
-// Assuming getPrimeNumbers is in your_module.js
-
 import getPrimeNumbers from './get-prime-numbers.js';
 
 describe('getPrimeNumbers', () => {
