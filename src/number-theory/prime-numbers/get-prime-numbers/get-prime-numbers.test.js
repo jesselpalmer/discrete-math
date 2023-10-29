@@ -3,7 +3,6 @@
 import getPrimeNumbers from './get-prime-numbers.js';
 
 describe('getPrimeNumbers', () => {
-
   it('should return an empty array for 0', () => {
     expect(getPrimeNumbers(0)).toEqual([]);
   });
@@ -19,5 +18,4 @@ describe('getPrimeNumbers', () => {
   it('should return an empty array for negative numbers', () => {
     expect(getPrimeNumbers(-5)).toEqual([]);
   });
-
 });
